@@ -1,1 +1,2 @@
 git clone "mention path of the reposetory"
+git push origin main (here origin is default reposetory name & main is the branch)
