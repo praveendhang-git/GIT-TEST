@@ -1,3 +1,5 @@
 git clone "mention path of the reposetory"
 git add -p filename  (this is for the inteactive ) this command will add the file in the staging area
 git push origin main (here origin is default reposetory name & main is the branch)
+git commit ( this will open the file to add the commit message. 
+            if used git commit -m "commit message" here you add the message in the command)
