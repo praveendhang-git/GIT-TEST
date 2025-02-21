@@ -1,5 +1,20 @@
-git clone "mention path of the reposetory"
+git init < this command will initialize the local folder as the git repository in local machine >
+git clone "mention path of the repository"
 git add -p filename  (this is for the inteactive ) this command will add the file in the staging area
-git push origin main (here origin is default reposetory name & main is the branch)
+git push origin main (here origin is default repository name & main is the branch)
 git commit ( this will open the file to add the commit message. 
             if used git commit -m "commit message" here you add the message in the command)
+git remote add origin < remote github link of the repository -- this is created manually in github >
+git remote -v <it shows the current remote repository set>
+git branch feature2 < it will create the new branch called feature2 >
+git branch < this is to check the branch. It will display all the branches and mention * to the current branch >
+git branch -M main < it will rename the current branch to main >
+git checkout -b feature1 < It will create new branch called feature1 & checkout from current branch to feature1 >  
+git checkout feature2 < It will checkout from the current branch and move to feature1 branch >
+git diff -branch name- < This will check the difference between the current branch with -branch name- specified in the command>
+git merge -branch name - < this will merge the current branch with the -branch name-. 
+                         If there are any conflict then it show the conflict >
+There is another way to merge the changes like ,
+If you have already pushed the branch changes on the git hub then github will tell you that there is difference between 
+the current branch and main branch then git hub promt to create the pull request for the merge.Someone has to review the 
+merge request & approve it.                       
